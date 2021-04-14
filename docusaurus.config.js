@@ -3,7 +3,7 @@ module.exports = {
   title: "Welcome to the Shared Backpack",
   tagline: "Group Travelling Software",
   url: "https://sharedbackpack.github.io",
-  baseUrl: "/sharedbackpack-docs/",
+  baseUrl: "/Shared-Backpack-docs/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
