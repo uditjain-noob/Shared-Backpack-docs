@@ -1,100 +1,99 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  title: "Welcome to the Shared Backpack",
+  tagline: "Group Travelling Software",
+  url: "https://sharedbackpack.github.io",
+  baseUrl: "/sharedbackpack-docs/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/favicon.ico",
+  organizationName: "TheSharedBackpack", // Usually your GitHub org/user name.
+  projectName: "The-Shared-Backpack-docs", // Usually your repo name.
+  onBrokenLinks: "ignore",
   themeConfig: {
+    logo: {
+      alt: "The Shared Backpack Logo",
+      src: "img/logo-main.png",
+    },
     navbar: {
-      title: 'My Site',
+      title: "The Shared BackPack",
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: "The Shared Backpack Logo",
+        src: "img/logos/logo-200x200.png",
       },
       items: [
         {
-          to: 'docs/',
-          activeBasePath: 'docs',
-          label: 'Docs',
-          position: 'left',
+          to: "docs/",
+          activeBasePath: "docs",
+          label: "Docs",
+          position: "left",
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        // {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
+          href: "https://github.com/The-Shared-Backpack",
+          label: "GitHub",
+          position: "right",
         },
       ],
     },
     footer: {
-      style: 'dark',
+      style: "dark",
       links: [
         {
-          title: 'Docs',
+          title: "Docs",
           items: [
             {
-              label: 'Getting Started',
-              to: 'docs/',
+              label: "Style Guide",
+              to: "docs/",
+            },
+            {
+              label: "Second Doc",
+              to: "docs/doc2/",
             },
           ],
         },
         {
-          title: 'Community',
+          title: "Community",
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: "Slack",
+              href: "https://join.slack.com/t/thesharedbackpack/shared_invite/zt-pce62vf4-EGFS3vbmAuJlBCAyAdTEJg",
             },
           ],
         },
         {
-          title: 'More',
+          title: "More",
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
+              label: "Blog",
+              to: "blog",
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: "GitHub",
+              href: "https://github.com/The-Shared-Backpack",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} The Shared Backpack. Built with Docusaurus.`,
     },
   },
   presets: [
     [
-      '@docusaurus/preset-classic',
+      "@docusaurus/preset-classic",
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
+          sidebarPath: require.resolve("./sidebars.js"),
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            "https://github.com/The-Shared-Backpack/Shared-Backpack-docs/edit/main/website/",
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            "https://github.com/The-Shared-Backpack/Shared-Backpack-docs/edit/main/website/blog/",
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       },
     ],
