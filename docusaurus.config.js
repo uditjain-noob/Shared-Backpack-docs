@@ -7,8 +7,8 @@ module.exports = {
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "TheSharedBackpack", // Usually your GitHub org/user name.
-  projectName: "The-Shared-Backpack-docs", // Usually your repo name.
+  organizationName: "The-Shared-Backpack", // Usually your GitHub org/user name.
+  projectName: "Shared-Backpack-docs", // Usually your repo name.
   onBrokenLinks: "ignore",
   themeConfig: {
     logo: {
